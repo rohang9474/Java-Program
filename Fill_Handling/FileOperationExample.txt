@@ -1,0 +1,1 @@
+In this file, That file is created by using File handling. now we can write file using write method
