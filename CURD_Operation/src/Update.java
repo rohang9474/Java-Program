@@ -14,7 +14,7 @@ public class Update {
 			// Create a prepared statement object
 			Statement stmt = con.createStatement();
 			String sql = "UPDATE info SET city = 'Nashik' WHERE ID in (1, 3)";
-			;
+			
 
 			stmt.executeUpdate(sql);
 			System.out.println("Record Updated successfully..");
